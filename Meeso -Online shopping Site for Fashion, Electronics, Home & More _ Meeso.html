@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online shopping Site for Fashion, Electronics, Home &amp; More | Meeso</title>
+    <link rel="icon" href="http://upload.wikimedia.org/wikipedia/commons/8/80/Meeso_Logo_Full.png">
+    <link rel="stylesheet" href="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/index.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/css2" rel="stylesheet">
+    
+    <!--<meta name="theme-color" content="#000000" />
+    <meta
+      name="description" tent="Web site created using create-react-app"
+    /> 
+    <link rel="apple-touch-icon" href="https://upload.wikimedia.org/wikipedia/commons/8/80/Meesho_Logo_Full.png" />
+    <link rel="stylesheet" href="index.css"/>
+    
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">-->
+    
+    <!--fevicon icon
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/80/Meesho_Logo_Full.png">
+    -->
+    <!--bootstrap css link-->
+    <link href="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/bootstrap.min.css" rel="stylesheet">
+   
+   <script defer="" src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/bundle.js.download"></script><style>*{
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #6d6a6a;
+}
+img{
+  width: 100%;
+}
+.header{
+  height: 75px;
+  outline: 1px solid #ccc;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLeft,
+.headerRight{
+  display: flex;
+  align-items: center;
+}
+.logoContainer{
+  width: 155px;
+}
+.searchInputContainer{
+  width: 400px;
+  height: 60px;
+  outline: 1px solid #ccc;
+  display: flex;
+  margin-left: 25px;
+  border-radius: 3px;
+  align-items: center;
+  padding: 10px;
+
+}
+.searchIcon{
+  width: 20px;
+  margin: 5px;
+}
+/***right***/
+.mobileIcon{
+  width: 15px;
+  margin: 5px;
+}
+.downloadContainer{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 20px;
+}
+.downloadContainer p{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+}
+
+.profileAndCart{
+  display: flex;
+  align-items: center;
+}
+.profileIcon,
+.CartIcon{
+  width: 20px;
+}
+.profileAndCart p{
+  margin: 0;
+  padding: 0;
+}
+.profileContainer,
+.CartContainer{
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.becomeSupplierContainer{
+  padding: 0px 30px;
+  border-left: 1.5px solid #ccc;
+  border-Right: 2px solid #ccc;
+  font-size: 17px;
+
+}
+.card-img-top{
+  width:300px;
+  height:400px;
+  object-fit:contain;
+}
+.inputSearch{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBc0I7QUFDeEI7QUFDQTtFQUNFLGtCQUFrQjs7RUFFbEIsU0FBUztFQUNULFVBQVU7RUFDVixXQUFXO0VBQ1gsaUNBQWlDO0VBQ2pDLGNBQWM7QUFDaEI7QUFDQTtFQUNFLFdBQVc7QUFDYjtBQUNBO0VBQ0UsWUFBWTtFQUNaLHVCQUF1QjtFQUN2QixpQkFBaUI7RUFDakIsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQiw4QkFBOEI7QUFDaEM7QUFDQTs7RUFFRSxhQUFhO0VBQ2IsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxZQUFZO0FBQ2Q7QUFDQTtFQUNFLFlBQVk7RUFDWixZQUFZO0VBQ1osdUJBQXVCO0VBQ3ZCLGFBQWE7RUFDYixpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQixhQUFhOztBQUVmO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsV0FBVztBQUNiO0FBQ0EsWUFBWTtBQUNaO0VBQ0UsV0FBVztFQUNYLFdBQVc7QUFDYjtBQUNBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixZQUFZO0VBQ1osbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxTQUFTO0VBQ1QsVUFBVTtFQUNWLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsbUJBQW1CO0FBQ3JCO0FBQ0E7O0VBRUUsV0FBVztBQUNiO0FBQ0E7RUFDRSxTQUFTO0VBQ1QsVUFBVTtBQUNaO0FBQ0E7O0VBRUUsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0VBQ25CLHNCQUFzQjtBQUN4QjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLDZCQUE2QjtFQUM3Qiw0QkFBNEI7RUFDNUIsZUFBZTs7QUFFakI7QUFDQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0VBQ1osa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsWUFBWTtFQUNaLGFBQWE7RUFDYixlQUFlO0FBQ2pCIiwic291cmNlc0NvbnRlbnQiOlsiKntcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cbmJvZHkge1xuICBvdmVyZmxvdy14OiBoaWRkZW47XG5cbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xuICB3aWR0aDogMTAwJTtcbiAgZm9udC1mYW1pbHk6ICdSb2JvdG8nLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogIzZkNmE2YTtcbn1cbmltZ3tcbiAgd2lkdGg6IDEwMCU7XG59XG4uaGVhZGVye1xuICBoZWlnaHQ6IDc1cHg7XG4gIG91dGxpbmU6IDFweCBzb2xpZCAjY2NjO1xuICBwYWRkaW5nOiAwcHggMTBweDtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xufVxuLmhlYWRlckxlZnQsXG4uaGVhZGVyUmlnaHR7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4ubG9nb0NvbnRhaW5lcntcbiAgd2lkdGg6IDE1NXB4O1xufVxuLnNlYXJjaElucHV0Q29udGFpbmVye1xuICB3aWR0aDogNDAwcHg7XG4gIGhlaWdodDogNjBweDtcbiAgb3V0bGluZTogMXB4IHNvbGlkICNjY2M7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIG1hcmdpbi1sZWZ0OiAyNXB4O1xuICBib3JkZXItcmFkaXVzOiAzcHg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIHBhZGRpbmc6IDEwcHg7XG5cbn1cbi5zZWFyY2hJY29ue1xuICB3aWR0aDogMjBweDtcbiAgbWFyZ2luOiA1cHg7XG59XG4vKioqcmlnaHQqKiovXG4ubW9iaWxlSWNvbntcbiAgd2lkdGg6IDE1cHg7XG4gIG1hcmdpbjogNXB4O1xufVxuLmRvd25sb2FkQ29udGFpbmVye1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBoZWlnaHQ6IDEwMCU7XG4gIHBhZGRpbmctcmlnaHQ6IDIwcHg7XG59XG4uZG93bmxvYWRDb250YWluZXIgcHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xuICBmb250LXNpemU6IDE3cHg7XG59XG5cbi5wcm9maWxlQW5kQ2FydHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5wcm9maWxlSWNvbixcbi5DYXJ0SWNvbntcbiAgd2lkdGg6IDIwcHg7XG59XG4ucHJvZmlsZUFuZENhcnQgcHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xufVxuLnByb2ZpbGVDb250YWluZXIsXG4uQ2FydENvbnRhaW5lcntcbiAgcGFkZGluZzogMHB4IDIwcHg7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xufVxuLmJlY29tZVN1cHBsaWVyQ29udGFpbmVye1xuICBwYWRkaW5nOiAwcHggMzBweDtcbiAgYm9yZGVyLWxlZnQ6IDEuNXB4IHNvbGlkICNjY2M7XG4gIGJvcmRlci1SaWdodDogMnB4IHNvbGlkICNjY2M7XG4gIGZvbnQtc2l6ZTogMTdweDtcblxufVxuLmNhcmQtaW1nLXRvcHtcbiAgd2lkdGg6MzAwcHg7XG4gIGhlaWdodDo0MDBweDtcbiAgb2JqZWN0LWZpdDpjb250YWluO1xufVxuLmlucHV0U2VhcmNoe1xuICB3aWR0aDogMTAwJTtcbiAgYm9yZGVyOiBub25lO1xuICBvdXRsaW5lOiBub25lO1xuICBmb250LXNpemU6IDE2cHg7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style></head>
+  <body>
+    <header class="header">
+      <div class="headerLeft">
+        <div class="logoContainer">
+          <img src="data:image/png;base64,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">
+          </div>
+          <!--search bar-->
+          <div class="searchInputContainer">
+          <div class="searchIcon">
+           <img src="data:image/png;base64,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">
+          </div>    
+        <input type="text" placeholder="Try Bags, Footwares, Kitchen or Search by Product Code" class="inputSearch"> 
+        <!--<div class="inputCloseSearch">
+          <i class="fa-solid fa-xmark" id="closeSearch"></i>
+        </div>-->
+      </div>
+      </div>
+
+      <div class="headerRight">
+          <div class="downloadContainer">
+            <div class="mobileIcon">
+              <img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/15874.png">
+            </div>
+            <p>Download App</p>
+          </div>
+          <div class="becomeSupplierContainer">
+            <p>Become a Supplier</p>
+          </div>
+
+          <div class="profileAndCart">
+            <div class="profileContainer">
+              <div class="profileIcon">
+                  <img src="data:image/png;base64,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">
+              </div>
+              <p>Profile</p>
+            </div>
+
+            <div class="CartContainer">
+              <div class="CartIcon">
+                  <img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images">
+              </div>
+              <p>Cart</p>
+            </div>
+          </div>
+      </div>
+    </header>
+
+    
+
+    <index src="index.js"></index>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><h1 class="text-center text-info"></h1><h2 class="text-center text-info"></h2><div class="container-fluid margin mx-2"><div class="row mt-5 mx-2"><div class="col-md-3"><button class="btn btn-warning w-100 mb-4">Bags</button><button class="btn btn-warning w-100 mb-4">Footwares</button><button class="btn btn-warning w-100 mb-4">Kitchen</button><button class="btn btn-warning w-100 mb-4">All</button></div><div class="col-md-9"><div class="row"><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/pexels-photo-1152077.jpeg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">casual bags</h5><p>price:569</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(1)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">casual bags</h5><p>price:569</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(2)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">casual bags</h5><p>price:569</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(3)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">casual bags</h5><p>price:569</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/unnamed.webp" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">womens bags</h5><p>price:658</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/istockphoto-492811876-612x612.jpg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">Hand bags</h5><p>price:670</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/high-quality-stylish-trolley-bag-travel-bag-luggage-bag-duffel-original-imagfce8ptyvkxbf.jpeg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">Travel bags</h5><p>price:658</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(4)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">men sneakers</h5><p>price:678</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(5)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">men sneakers</h5><p>price:678</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(6)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">men sneakers</h5><p>price:678</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(7)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">men sneakers</h5><p>price:678</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(8)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">womens Footwares</h5><p>price:560</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(9)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">causals</h5><p>price:765</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(10)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">formals</h5><p>price:456</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/713dhFf1LHL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">Grocery container</h5><p>price:199</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(11)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">GangaMetal</h5><p>price:161</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(12)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">plastic cup</h5><p>price:349</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(13)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">thava</h5><p>price:140</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(14)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">thava</h5><p>price:140</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(15)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">thava</h5><p>price:140</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div><div class="col-md-4 mb-4"><div class="card"><img src="./Meeso -Online shopping Site for Fashion, Electronics, Home &amp; More _ Meeso_files/images(16)" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">thava</h5><p>price:140</p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><button class="btn btn-dark">Buy now</button></div></div></div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
